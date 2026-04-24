@@ -102,4 +102,66 @@ osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-wo
 $
 ok tudo pronto.
 
+--------------------------------------------------------------------------------------
+
+
+agora é mudando o push do https para SSH como chaves de autenticações
+
+
+vide abaixo:
+
+
+
+
+osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
+
+>>>>>> (   $ git remote set-url origin git@github.com:Osvairfaria/Hello-Word.git    ) <<<<<<<
+
+osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working d
+irectory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -
+a")
+
+osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
+$ git add .
+
+osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
+$ git commit -m "Atualizando redname 1"
+[main 8d3cf76] Atualizando redname 1
+ 1 file changed, 1 insertion(+)
+
+osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
+$ git push origin main
+The authenticity of host 'github.com (4.228.31.150)' can't be
+established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0
+zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerpr
+int])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list
+of known hosts.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 149.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local o
+bject.
+To github.com:Osvairfaria/Hello-Word.git
+   2ea42be..8d3cf76  main -> main
+
+osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
+$
+
 
