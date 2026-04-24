@@ -100,5 +100,6 @@ The key's randomart image is:
 
 osvai@DESKTOP-IGU2CH1 MINGW64 ~/OneDrive/Documentos/Projetos/new-githab/hello-word (main)
 $
+ok tudo pronto.
 
 
